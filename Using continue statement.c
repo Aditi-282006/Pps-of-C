@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(int i=0;i<=10;i++)
+    {
+        if(i==3)
+        {
+            continue;
+        }
+        printf("\n%d",i);
+    }
+    printf("\nEND");
+    return 0;
+}
