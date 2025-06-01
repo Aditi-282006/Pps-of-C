@@ -5,7 +5,7 @@ int main()
     {
         if(i==3)
         {
-            break;
+            continue;
         }
         printf("\n%d",i);
     }
